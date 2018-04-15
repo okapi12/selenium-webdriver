@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c572ba79-af5b-48ee-9667-07663665ac80" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-example/src/test/java/ru/stqa/training/selenium/MyFirstTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-example/src/test/java/ru/stqa/training/selenium/SimpleScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/test-example/.gradle/" />
     <ignored path="$PROJECT_DIR$/test-example/build/" />
@@ -40,11 +38,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyFirstTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyFirstTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test-example/src/test/java/ru/stqa/training/selenium/MyFirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+            <state relative-caret-position="348">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="28" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleScript.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test-example/src/test/java/ru/stqa/training/selenium/SimpleScript.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#291#292#0" expanded="true" />
@@ -433,12 +445,13 @@
       <list>
         <option value="$PROJECT_DIR$/test-example/build.gradle" />
         <option value="$PROJECT_DIR$/test-example/src/test/java/ru/stqa/training/selenium/MyFirstTest.java" />
+        <option value="$PROJECT_DIR$/test-example/src/test/java/ru/stqa/training/selenium/SimpleScript.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="130" />
-    <option name="y" value="55" />
+    <option name="x" value="25" />
+    <option name="y" value="57" />
     <option name="width" value="1195" />
     <option name="height" value="775" />
   </component>
@@ -524,7 +537,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SimpleScript">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -540,6 +553,29 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
       <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.MyFirstTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SimpleScript" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-example_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.training.selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.SimpleScript" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -589,8 +625,13 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="JUnit.MyFirstTest" />
+      <item itemvalue="JUnit.SimpleScript" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SimpleScript" />
         <item itemvalue="JUnit.MyFirstTest" />
       </list>
     </recent_temporary>
@@ -609,16 +650,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyFirstTest - 2018.04.14 at 19h 27m 32s.xml">
-      <configuration name="MyFirstTest" configurationId="JUnit" />
+    <history-entry file="SimpleScript - 2018.04.15 at 23h 20m 13s.xml">
+      <configuration name="SimpleScript" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFirstTest - 2018.04.14 at 19h 29m 24s.xml">
-      <configuration name="MyFirstTest" configurationId="JUnit" />
+    <history-entry file="SimpleScript - 2018.04.15 at 23h 21m 24s.xml">
+      <configuration name="SimpleScript" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleScript - 2018.04.15 at 23h 24m 16s.xml">
+      <configuration name="SimpleScript" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleScript - 2018.04.15 at 23h 24m 46s.xml">
+      <configuration name="SimpleScript" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleScript - 2018.04.15 at 23h 28m 14s.xml">
+      <configuration name="SimpleScript" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleScript - 2018.04.15 at 23h 28m 30s.xml">
+      <configuration name="SimpleScript" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleScript - 2018.04.15 at 23h 29m 18s.xml">
+      <configuration name="SimpleScript" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleScript - 2018.04.15 at 23h 29m 35s.xml">
+      <configuration name="SimpleScript" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleScript - 2018.04.15 at 23h 34m 46s.xml">
+      <configuration name="SimpleScript" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleScript - 2018.04.15 at 23h 35m 21s.xml">
+      <configuration name="SimpleScript" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="130" y="55" width="1195" height="775" extended-state="0" />
-    <editor active="true" />
+    <frame x="25" y="57" width="1195" height="775" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -677,8 +741,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test-example/src/test/java/ru/stqa/training/selenium/MyFirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        <state relative-caret-position="348">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-example/src/test/java/ru/stqa/training/selenium/SimpleScript.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#291#292#0" expanded="true" />
