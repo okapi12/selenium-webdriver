@@ -28,7 +28,7 @@ public class Task13withCorrections {
         wait = new WebDriverWait(driver, 15/*seconds*/);
     }
     @Test
-    public void task13() {
+    public void task13withCorrections() {
         //adding 3 items
         for (int i=1;i <= 3;i++) {
             //initial page
